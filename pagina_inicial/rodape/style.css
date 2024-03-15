@@ -246,3 +246,47 @@
     width: 90%;
     max-width: 1200px; /* Defina o valor máximo desejado */
 }
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .content {
+    align-self: flex-start;
+    margin-left: 20px; /* Distância do canto esquerdo */
+    text-align: center;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    padding: 20px;
+    
+  }
+  
+  button {
+    margin: 0 10px; /* Espaçamento entre os botões */
+    padding: 60px 35px; /* Tamanho dos botões */
+    border: none;
+    border-radius: 20px; /* Borda arredondada */
+    background-color: #1E9944; /* Cor de fundo dos botões */
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgba(182, 172, 172, 0.267); /* Cor de fundo dos botões ao passar o mouse */
+  }
