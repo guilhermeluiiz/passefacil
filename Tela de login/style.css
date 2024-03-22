@@ -1,9 +1,24 @@
-#nome {
+#nome, #email, #password {
     width: 80%; /* Largura */
     height: 25px; /* Altura */
     margin-left: 10%;
     background-color: #f2f2f2;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    margin-top: 30px;
+
+}
+
+ .Botao-Enviar {
+    font-weight: bold; 
+    background-color:#1E9944; /* Cor de fundo verde para o botão */
+    color: #fff; /* Cor do texto branca */
+    padding: 10px 20px; /* Adiciona espaço interno ao botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Mostra a mãozinha ao passar sobre o botão */
+    font-size: 16px; /* Tamanho da fonte */
+    margin-top: 50px; /* Adiciona uma margem superior ao botão */
+    margin-left: 40%;
 }
 
 .p1{
@@ -13,9 +28,6 @@
     margin-left: 40%
 }
 
-.botao-entrar:hover {
-    background-color: darkgreen; /* Cor de fundo mais escura quando passa o mouse */
-}
 .botao-entrar,
 .botao-entrar:hover,
 .botao-entrar:visited {
