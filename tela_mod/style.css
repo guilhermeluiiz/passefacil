@@ -3,28 +3,46 @@
     justify-content: center; /* Centraliza o conteúdo verticalmente */
     align-items: center; /* Centraliza o conteúdo horizontalmente */
     height: 100%; /* Assegura que a altura ocupa todo o espaço disponível */
-    width: 60%; /* Define a largura de cada div */
+    width: 100%; /* Define a largura de cada div */
     background-color: #12C449;
    
   }
+
+ 
+  
   .div2{
     display: flex; /* Torna div1 e div2 flex containers */
     justify-content: center; /* Centraliza o conteúdo verticalmente */
     align-items: center; /* Centraliza o conteúdo horizontalmente */
     height: 100%; /* Assegura que a altura ocupa todo o espaço disponível */
-    width: 40%; /* Define a largura de cada div */
+    width: 100%; /* Define a largura de cada div */
     background-color:#12C449;
   
   }
   
-  .oi{
-    color: #ff0000;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 10px;
-    width: 10px;
+  .circle {
+    left: 100%;
+    right: 400px;
+    width: 400px;
+    height: 400px;
+    background-color: #007bff; /* Cor de fundo do círculo */
+    border-radius: 50%; /* Define a forma circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1E9944; /* Cor do texto no centro do círculo */
+    font-size: 24px;
   }
   
+  
+  .container-inner {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .menu {
       background-color: #ffffff;
       padding: 20px;
@@ -276,27 +294,7 @@
       width: 90%;
       max-width: 1200px; /* Defina o valor máximo desejado */
      }
-  
-     .container-main img {
-      border: 0px solid ;
-      float: left;
-      margin: 600px ;
-      padding: 0px;
-      max-width: 200px;
-  
-    }
     
-  
-    .circle {
-      width: 500px;
-      height: 450px;
-      background-color: #006717; /* Cor de fundo do círculo */
-      border-radius: 50%; /* Define a forma circular */
-      float: left 700px;
-      float: right 10px;
-      margin: 450px ;
-      padding: 0px;
-    }
     .menu logo {
       border: 0px solid ;
       float: left;
