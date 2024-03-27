@@ -19,9 +19,9 @@
 
   .l1{
     position: absolute;
-    left:3%;
+    left:0%;
     top:60%;
-    right:550px;
+    right:750px;
     font-family: 'Courier New', Courier, monospace;
     color: #e1e0e0;
     
@@ -32,10 +32,9 @@
 
   .l2{
     position: absolute;
-    left:3%;
-    top:80%;
-    right:550px;
-    right:550px;
+    left:0%;
+    top:75%;
+    right:750px;
     font-family: 'Courier New', Courier, monospace;
     color: #e1e0e0;
     
@@ -97,11 +96,11 @@
   }
   
   .container-inner img {
-    width: 180px; /* Largura da imagem */
+    width: 200px; /* Largura da imagem */
     height: auto; /* Mantém a proporção da imagem */
     position: absolute; /* Posiciona a imagem */
     top: 90%; /* Posiciona a imagem verticalmente no meio */
-    left: 53%; /* Posiciona a imagem horizontalmente no meio */
+    left: 50%; /* Posiciona a imagem horizontalmente no meio */
     transform: translate(-50%, -50%); /* Corrige o posicionamento para o centro */
 }
 
